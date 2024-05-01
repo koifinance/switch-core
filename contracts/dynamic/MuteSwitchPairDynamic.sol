@@ -481,7 +481,7 @@ contract MuteSwitchPairDynamic is MuteSwitchERC20Dynamic {
             }
             if (_delta1 > 0) {
                 uint _share = _supplied * _delta1 / 1e18;
-                claimed0 = claimable1[recipient] + _share;
+                claimed1 = claimable1[recipient] + _share;
             }
         }
     }
